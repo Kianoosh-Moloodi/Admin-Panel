@@ -1,0 +1,13 @@
+@import "bootstrap/scss/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import "sidebar";
+@import "utilities";
+@import "header";
+
+.main{
+    background-color: rgba(0, 91, 218, 0.073);
+    transition: all 0.3s ease-out;
+    &.active{
+        margin-left: 0;
+    }
+}

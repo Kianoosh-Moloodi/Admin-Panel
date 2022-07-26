@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.fs-6{
+    font-size: .8rem;
+}
+
+.fs-7{
+    font-size: .7rem;
+}
+
+.fs-8{
+    font-size: .5rem;
+}
+
+@media (max-width: 768px){
+    #mobile-d-none{
+        display: none;
+    }
+}    
+
+@media (min-width: 992px){
+    .main{
+        margin-left: 260px;
+    }
+}
+
+[x-cloak]{
+    display: none !important;
+}
+
+#chartdiv1 {
+    height: 500px;
+}
+
+#chartdiv2 {
+    height: 280px;
+  }
+
+  #chartdiv3 {
+    height: 300px;
+  }
